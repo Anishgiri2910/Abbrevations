@@ -1,0 +1,6 @@
+def abbreviate(string):
+    word=string.split()
+    abb=[]
+    for i in range (len(word)):
+    	abb.append(word[i][0].upper())
+    print ''.join(abb)
